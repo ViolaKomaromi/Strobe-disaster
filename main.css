@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  border: 2px solid hotpink;
+  height: 100vh;
+}
+
+div {
+  border: 2px dotted chartreuse;
+  width: 20%;
+}
+
+.strobe_1 {
+  background-color: yellow;
+  animation: first 2s infinite alternate-reverse;
+}
+
+.strobe_2 {
+  background-color: yellow;
+  animation: first 2s infinite alternate-reverse;
+}
+
+.strobe_3 {
+  background-color: yellow;
+  animation: first 2s infinite alternate-reverse;
+}
+
+.strobe_4 {
+  background-color: yellow;
+  animation: first 2s infinite alternate-reverse;
+}
+
+.strobe_5 {
+  background-color: yellow;
+  animation: first 2s infinite alternate-reverse;
+}
+.wrapper> div:hover{
+      background: rgba(240, 240, 3, 0.568);
+      animation: 1s infinite ;
+      /* background-color: rgba(255, 255, 0, 0.671);
+  animation: first 2s infinite alternate-reverse; */
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes strobe_1 {
+  from,to {
+    background-color: rgba(253, 253, 0, 0.774);
+  }
+
+  50% {
+    background-color: transparent;
+  }
+}
